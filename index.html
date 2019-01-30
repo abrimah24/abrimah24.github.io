@@ -1,267 +1,274 @@
 <!DOCTYPE html>
-<html>
-<title>W3.CSS Template</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="flavors.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Abduls Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    
+</head>
 <body>
+    
+    <header>
 
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar" id="myNavbar">
-    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-      <i class="fa fa-bars"></i>
-    </a>
-    <a href="#home" class="w3-bar-item w3-button">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
-      <i class="fa fa-search"></i>
-    </a>
-  </div>
+            <nav class="navbar fixed-top navbar-expand-xl navbar-dark navbar-right ">
+                    <a class="navbar-brand" href="#"><img alt="Brand" src="images/abdul1.png"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                      <div class="navbar-nav navbar-right">
+                        <a class="nav-item nav-link active navbar-right" href="#">Work <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link active" href="https://www.instagram.com/shotby_deuce/">Photos</a>
+                        <a class="nav-item nav-link active" href="#Contact"><span class="cols2">Contact Me</span></a>
+                        
+                      </div>
+                    </div>
+                  </nav>
 
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
-    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
-  </div>
+                  
+    </header>
+    <div class="clr"></div>
+    <!---------------------------Landing Page 1------------------------------------->
+
+    <section id="showcase">
+            
+        <div class="contain">
+                <div class=" p-md-4 ">
+               
+            <h1><span class="cols">Hello. </span> I’m Abdul Brimah. Web &amp; UI/UX Designer &amp; Front-End Developer from Chicago, Illinois. My focus is to create new ideas and bring them to life.<br></h1>
+            <p><a class="btn  btn-secondary btn-lg-8" href="#" role="button">See more</a></p>
+        </div>
+    </div>
 </div>
-
-<!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-  <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">WELL HELLO! I'M ABDUL</span>
-  </div>
-</div>
-
-<!-- Container (About Section) -->
-<div class="w3-content w3-container w3-padding-64" id="about">
-  <h3 class="w3-center">ABOUT ME</h3>
-  <p class="w3-center"><em>I love photography</em></p>
-  <p>We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-    qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <div class="w3-row">
-    <div class="w3-col m6 w3-center w3-padding-large">
-      <p><b><i class="fa fa-user w3-margin-right"></i>My Name</b></p><br>
-      <img src="/w3images/avatar_hat.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
-    </div>
-
-    <!-- Hide this text on small devices -->
-    <div class="w3-col m6 w3-hide-small w3-padding-large">
-      <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-  </div>
-  <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
-  <p class="w3-wide"><i class="fa fa-camera"></i>Photography</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
-  </div>
-  <p class="w3-wide"><i class="fa fa-laptop"></i>Web Design</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
-  </div>
-  <p class="w3-wide"><i class="fa fa-photo"></i>Photoshop</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
-  </div>
-</div>
-
-<div class="w3-row w3-center w3-dark-grey w3-padding-16">
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">14+</span><br>
-    Partners
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">55+</span><br>
-    Projects Done
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">89+</span><br>
-    Happy Clients
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">150+</span><br>
-    Meetings
-  </div>
-</div>
-
-<!-- Second Parallax Image with Portfolio Text -->
-<div class="bgimg-2 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
-  </div>
-</div>
-
-<!-- Container (Portfolio Section) -->
-<div class="w3-content w3-container w3-padding-64" id="portfolio">
-  <h3 class="w3-center">MY WORK</h3>
-  <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
-
-  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-  <div class="w3-row-padding w3-center">
-    <div class="w3-col m3">
-      <img src="/w3images/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
-    </div>
-  </div>
-
-  <div class="w3-row-padding w3-center w3-section">
-    <div class="w3-col m3">
-      <img src="/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
-    </div>
-    <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
-  </div>
-</div>
-
-<!-- Modal for full size images on click-->
-<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
-  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-    <img id="img01" class="w3-image">
-    <p id="caption" class="w3-opacity w3-large"></p>
-  </div>
-</div>
-
-<!-- Third Parallax Image with Portfolio Text -->
-<div class="bgimg-3 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
-  </div>
-</div>
-
-<!-- Container (Contact Section) -->
-<div class="w3-content w3-container w3-padding-64" id="contact">
-  <h3 class="w3-center">WHERE I WORK</h3>
-  <p class="w3-center"><em>I'd love your feedback!</em></p>
-
-  <div class="w3-row w3-padding-32 w3-section">
-    <div class="w3-col m4 w3-container">
-      <!-- Add Google Maps -->
-      <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
-    </div>
-    <div class="w3-col m8 w3-panel">
-      <div class="w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Chicago, US<br>
-        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00 151515<br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: mail@mail.com<br>
-      </div>
-      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
-      <form action="/action_page.php" target="_blank">
-        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-          <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          </section >
+          <div class="clr"></div>
+<!---------------------------------------- Page 2------------------------------------->
+    <div class="colors1">
+    <div class="container-fluid">
+        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+        
+        <div class="row">
+          <div class="col-sm-12 col-xl-7">
+          <div class="wrapper-content">
+        <div class="landing">
+                    
+                    <div class="left">
+                        <div class="line"></div>
+                        <h1>EXPERIENCED UI/UX<br>DESIGNER</h1>
+                        <p>ASPIRING CREATOR FOR RENOWNED GRAPHICS AND DESIGNS. ABILITY TO POST NEW, INTUITIVE AND SLEEK DESIGNS FOR ALL UPCOMING WEBSITES<br><br>THESE INTUITIVE DESIGNS MAKE THE ABILITY OF NAVIGATING THROUGH A CLEAN WEBSITE EASY </p>
+                        
+                    </div>
+                </div>
+            
+        </div>
+        </div>
+         <div class="col-sm-6 col-xl-5">
+        
+          <div class="rights">
+                        <div class="skills">
+                            <div class="skill-box">
+                                <h2><img src="images/responsive.png" alt="work icon">UI/UX DESIGN</h2>
+                            </div>
+                            <div class="skill-box">
+                                <h2><img src="images/pencil.png" alt="work icon">DIGITAL DESIGN</h2>
+                            </div>
+                            
+                            <div class="skill-box">
+                                <h2><img src="images/camera.png" alt="work icon">PHOTOGRAPHY</h2>
+                            </div>
+                            <div class="skill-box">
+                                <h2><img src="images/coding.png" alt="work icon">FRONT-END DEVELOPMENT</h2>
+                            </div>
+                        </div>
+                    </div>
+          </div>    
+        </div>
+        <div class="col-sm-6">
+                <img class="img365" src="images/undraw_programmer_imem.png" alt="desk girl">
+              </div>
           </div>
-          <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+    </div>
+<div class="clr"></div>
+    <!-----------------------------------------Page 3----------------------------------------  -->
+   
+<section id="boxer">
+    <h1>Tools &amp Skills</h1>
+    <p>Mastering of everyday tools</p>
+        <div class="container24">
+                <div class="box">
+            <img src="images/logo_html.png">
+            <p>HTML5 Markup</hp>
+            </div>
+                <div class="box">
+            <img src="images/logo_css.png">
+            <p>CSS3 Styling</p>
+                </div>
+            <div class="box">
+                <img src="images/learn-javascript.png">
+            <p>JavaScript</p>
+        </div>
+            <div class="box">
+                <img src="images/bootstrap1.png">
+                <p>Bootstrap</p>
+              </div>
+        </div>
+        <div class="container24">
+                <div class="box">
+                        <img src="images/Sass1.png">
+                        <p>Sass</p>
+                      
+                </div>
+                <div class="box">
+                    <img src="images/Photoshop.png">
+                    <p>Photoshop</p>
+                  </div>
+                <div class="box">
+                    <img src="images/illustrator.png">
+                    <p>Illustrator</p>
+                  </div>
+                <div class="box">
+                    <img src="images/logo_brush.png">
+                    <p>Graphic Design</p>
+                  </div>
+              </div>
+      </section >
+           <div class="clr"></div>
+    <!---------------------------Page 4------------------------------------->
+    
+    <div class="container" >
+
+            <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+                    <div class="row">
+                    <div class="col">
+                    <h4 class="text-center">Why Choose Me?</h4>
+                    <p class="text-center"> I'm a Freelanced Front-End Developer based in Chicago, IL. 
+                            I have immense passion for intuitive designs , UI effects and creating perceptive, vibrant user experiences. </p>
+                            <p class="text-center">The ability to deliver quick and efficient results are most important to me in order to keep a happy and healthy relationship with clients. 
+                        Giving my all to my craft, and learning to be more innovative with every project is what fuels me. </p> 
+                           <p class="text-center"><span class="cols">Together, let's make something special!</span></p>
+                    </div>
+                    <div class="col">
+                            <div class="panel panel-default">
+                                    <div class="panel panel-primary">
+                    <div class="panel-heading">
+                            <h4 class="text-center">Programming Proficiency</h4>
+            
+                    </div>
+                    <div class="panel-body">
+                        <div class="alert alert-info">
+                            <div class="contain">
+                                <p>
+                                    <h4 class="progress-label">CSS</h4>
+                                    <div class="progress">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>80%
+                                            </div>
+                                </p>
+                                <p>  
+                            <h4 class="progress-label">HTML</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div> 90%                                               </div>
+                            </p>
+                            <p>
+                            <h4 class="progress-label">JavaScript</h4>
+                            <div class="progress"> 
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 70%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>70%
+                                </div>
+                        </p>
+                            
+                        <p>    
+                        <h4 class="progress-label">React</h4>
+                            <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 60%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>60%
+                                </div>                                                        </p>
+
+                                        <p>
+                                    <h4 class="progress-label">UI Design</h4>
+                                        <div class="progress">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 70%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>70%
+                                        </div>
+                                    </p>
+
+                        <p>
+                                <h4 class="progress-label">Photoshop</h4>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 70%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>70%
+                                </div>
+                                </p>
+
+                <p>
+                        <h4 class="progress-label">Illustrator</h4>
+                            <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 50%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>50%
+                            </div>
+                        </p>
+
+            <p>
+                    <h4 class="progress-label">Python</h4>
+                        <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 50%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>50%
+                        </div>
+                    </p>
+
+                    <p>
+                            <h4 class="progress-label">Java</h4>
+                                <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 40%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>40%
+                                </div>
+                            </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+            
+                    </div>
+                    </div>
+                    </div>
+ 
+     <!---------------------------Page 5------------------------------------->
+
+    <div class="colors2">
+    <div class="container" id="Contact">
+        <div class="row">
+          <div class="col-xl-7">
+                <img class="img366" src="images/florian-olivo-1169466-unsplash.jpg">
+            <h1 class="white center">LET'S START A <br>PROJECT</h1>
+                </div>
+          <div class="col-xl-5">
+                
+                <div class="line2"></div>
+           <h1 class="white">COMPUTER SCIENCE MAJOR</H1>
+            <p class="white">STUDIED AT DEPAUL UNIVERSITY FOR COMUTER SCIENCE AND MINOR IN MATHEMATICS. MY GOAL IS TO CREATE IN ANY ENVIRONMENT AND SHOWCASE MY TALENTS. I AM ALWAYS EAGER TO LEARN AND GET BETTER AT MY CRAFT.<br><br>ANY IDEAS OR WANT TO COLLABORATE?</p>
+            <p><a class="btn  btn-primary btn-lg-10" href="mailto:abrimah24@gmail.com?subject=Hello" ><img src="images/close-envelope.png" alt="envelope icon"> Contact Me</a></p>
           </div>
         </div>
-        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-        <button class="w3-button w3-black w3-right w3-section" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </form>
+        </div>
     </div>
-  </div>
-</div>
+    
+            
 
-<!-- Footer -->
-<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
-  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <div class="w3-xlarge w3-section">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-  </div>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-</footer>
- 
-<!-- Add Google Maps -->
-<script>
-function myMap()
-{
-  myCenter=new google.maps.LatLng(41.878114, -87.629798);
-  var mapOptions= {
-    center:myCenter,
-    zoom:12, scrollwheel: false, draggable: false,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+    
 
-  var marker = new google.maps.Marker({
-    position: myCenter,
-  });
-  marker.setMap(map);
-}
+<!-- ---------------------------Footer----------------------------------- -->
 
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
 
-// Change style of navbar on scroll
-window.onscroll = function() {myFunction()};
-function myFunction() {
-    var navbar = document.getElementById("myNavbar");
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-    } else {
-        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
-    }
-}
-
-// Used to toggle the menu on small screens when clicking on the menu button
-function toggleFunction() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-<!--
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
-
+    <!-- <footer>
+            <div class="social">
+                <a href="#">YOUTUBE</a>
+                <a href="#">INSTAGRAM</a>
+                <a href="">TWITTER</a>
+            </div>
+            <p>2019 &COPY ABDUL BRIMAH</p>
+        </footer>
+     -->
 </body>
 </html>

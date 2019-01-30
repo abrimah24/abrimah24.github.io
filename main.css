@@ -1,0 +1,640 @@
+/*
+ * ─── GLOBAL ─────────────────────────────────────────────────────────────────────
+ */
+*{
+    margin: 0;
+    border:0;
+    padding: 0;
+    font-size: 100%;
+    outline: 0;
+    vertical-align: baseline;
+}
+:root {
+    --main-black: #1f202b;
+    --main-gray: rgb(215, 216, 221);
+    --light-gray: #E7E7E8;
+    --main-blue: #5952FF;
+}
+html{
+    font-family: Avenir, arial, sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 0%;
+}
+
+.clr{
+    clear: both;
+}
+.j{
+    background-color: #8084b4;
+}
+.k{
+    background-color: #8084b4;
+}
+.m{
+    background-color: #edadf0;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 900;
+    color: var(--main-black);
+    width: 100%
+}
+h2{
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--main-black);
+}
+p{
+    font-size: 17px;
+    color: var(--main-grey);
+}
+a{
+    font-size: 17px;
+    color: var(--main-grey);
+    text-decoration: none;
+}
+
+.wrapper-content{
+    width: 70%;
+    margin:  auto;
+    
+}
+.wrapper-content2{
+    width: 70%;
+    margin:  auto;
+}
+.white{
+    color: white;
+}
+.r{
+   text-align: right;
+   margin-right: 300px;
+   margin-bottom: 530px;
+}
+.l{
+    padding-left: 200px;
+}
+.j{
+    background-color: var(--main-gray);
+    border-bottom: #dddddd solid 1px;
+    padding: 10em 10em;
+}
+.k{
+    background-color: white;
+    border-bottom: #dddddd solid 1px;
+    padding: 10em 10em;
+}
+/*
+ * ─── NAV ────────────────────────────────────────────────────────────────────────
+ */
+
+nav{
+    position: fixed;
+    line-height: 50px;
+    background-color:var(--main-black);
+}
+
+
+.container{
+    width:100%;
+    margin-top:20px;
+    padding: 20px;
+  }
+  .container1{
+      width:100%;
+      margin-top:20px;
+      padding: 20px;
+    }
+
+ .btn{
+        margin-left: 47%;
+        max-width: 100%;
+        
+    }
+  #container123{
+    width:100%;
+    margin-top:20px;
+    padding-top: 50px;
+    display: inline-block;
+
+    text-align: center;
+    width:25%;
+
+  }
+
+  #container123 .row{
+    float: left;
+    text-align: center;
+    width:25%;
+      
+  }
+  #container123 .col{
+    width: 100%;
+    padding: 20px;
+    
+}
+  .shadow {
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+  }
+  .container24{
+
+    flex: 25%;
+  max-width: 100%;
+  padding: 0 4px;
+  }
+.contain{
+        width:100%;
+        margin:auto;
+        overflow:hidden;
+        padding: 0%;
+      }
+.contains{
+        left: 20%;
+        width:100%;
+        margin-top: 250px;
+        position: absolute;
+        
+      }
+nav a{
+    font-weight: 500;
+    color:var(--light-gray);
+    margin-left: 60px;
+}
+.nav-item .active{
+    color: yellow;
+}
+nav a:hover{
+    color:#754242;
+    font-weight: bold;
+}
+nav img{
+    width:60px;
+    position: relative;
+    
+}
+
+/* below aligns small image to the menu correctly */
+
+
+/* changes first child(Contact Me) blue and moves it over by 60 px */
+/* .nav-right a:first-child{
+    color: var(--main-blue);
+    margin-right: 60px;
+} */
+
+/* this LITERALLY makes a blue block */
+.rec{
+    background-color: var(--main-blue);
+    display: inline-block;
+    width:7px;
+    height:14px;
+    margin-right: 3px;
+}
+/*
+ * ─── CONTENT ────────────────────────────────────────────────────────────────────
+ */
+#showcase {
+    background-image: url('images/cool-background1.png');
+    background-size: cover;
+    background-position: center right;
+    min-height: 800px;
+    opacity: 0.9;
+}
+.product-device{
+    background-image: url('images/cool-background1.png');
+    background-size: cover;
+    background-position: center right;
+}
+.progress{
+    margin-top: 20px;
+    margin-left: 30%;
+}
+.progress-label {
+    float: left;
+    margin-right: 1em;
+   
+}
+#showcase h1{
+    color: rgb(15, 15, 15);
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 200px;
+    opacity:none;
+    fill-opacity: .8;
+    text-align: center ;
+}
+#showcase .btn{
+    margin-left: 47%;
+    max-width: 100%;
+    
+}
+.landing{
+    margin-top: 100px;
+   display: flex;
+}
+.landing2{
+    margin-top: 250px;
+   display: flex;
+}
+.section2{
+    margin-top: 250px;
+    display: flex;
+}
+
+.text-center{
+    padding-top: 5%;
+
+}
+
+.cols{
+    color: red;
+}
+.cols2{
+    color: rgb(178, 204, 233);
+}
+.left{
+    flex: 2;
+    margin-top: 130px;
+    position: relative;
+    
+}
+.right{
+    flex: 1;
+    position: relative;
+}
+.rights{
+    flex: 1;
+    position: relative;
+    margin-top: 80px;
+    bottom: 5%;
+}
+.right p{
+    max-width: 500px;
+}
+.left p{
+    max-width: 500px;
+}
+.skills{
+    float: right;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+/* Organizes/margin each skill and also throws a shadow under the letters */
+.skill-box{
+    background-color: white;
+    margin: 30px 0px;
+    text-align: center;
+    margin: 6%;
+    height: 120px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(75,79,124,0.1);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(75,79,124,0.1);
+    box-shadow: 0px 5px 20px 0px rgba(75,79,124,0.1);
+}
+
+.skill-box img{
+    width:40px;
+    box-sizing: border-box;
+    position: relative;
+    left: -20px;
+  }
+
+.rec-large{
+    background-color: var(--main-blue);
+    height: 150px;
+    width: 620px;
+    position: absolute;
+    /* top and left are getting blue square into position */
+    top: -45px;
+    left: -80px;
+    /* z puts square behind the words */
+    z-index: -1;
+}
+.line{
+    height: 3px;
+    width: 120px;
+    background-color: var(--main-black);
+    position: absolute;
+    top: 30px;
+    left: -140px;
+}
+.line2{
+    height: 3px;
+    width: 120px;
+    background-color: var(--main-gray);
+    position: absolute;
+    top: 30px;
+    left: -120px;
+}
+
+
+.img365{
+    height: auto;
+    width: 100%;
+    margin-bottom: -150px;
+    margin-top: -120px;
+    opacity: 0.8;
+}
+.img366{
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+    position: static;
+    margin-left: -40px;
+  }
+.rec-large-2{
+    background-color: var(--main-blue);
+    height: 260px;
+    width: 100;
+    position: absolute;
+    top: -142px;
+    left: -472px;
+    z-index: -1;
+}
+
+.arrows{
+    right: 5px;
+    
+}
+.arrow{
+    position: absolute;
+    right: 5px;
+    top: -10px;
+}
+
+.col-xl-5{
+    float: right;
+}
+
+#boxes{
+    margin-top:0px;
+  
+    padding: 10em 1.5em;
+    border-bottom: #dddddd solid 1px;
+  }
+  
+#boxes .box{
+    float:left;
+    text-align: center;
+    width:33%;
+    padding:0px;
+  }
+#boxes .box img{
+    width:100%;
+  }
+
+  #boxer{
+    margin-top:0px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+#boxer .box{
+    float: left;
+    text-align: center;
+    width:25%;
+  }
+#boxer .box img{
+    width:80px;
+    text-align: center;
+  }
+
+  #boxer h1{
+      text-align: center;
+      width: 100%;
+      margin-top: 30px;
+      }
+#boxer p{
+        text-align: center;
+        width: 100%;
+        }
+.colors1{
+    background: #fafafa;
+    border-bottom: #dddddd solid 1px;
+
+    padding-bottom: 10em;
+}
+.colors2{
+    position: relative;
+    background-color: var(--main-black);
+    border-bottom: #0e0d0d solid 1px;
+    padding: 10em 10em;
+}
+.colors3{
+    position: relative;
+    background-color: var(--main-black);
+    border-bottom: #0e0d0d solid 1px;
+    text-align: center
+}
+/* Media Queries */
+@media(max-width: 768px){
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    #boxer .box,
+    article#main-col,
+    .wrapper-content,
+    .wrapper-content2,
+    .landing,
+    .container-fluid,
+    .left,
+    .right,
+    .rights,
+    aside#sidebar{
+      float:none;
+      text-align:center;
+      width:100%;
+    }
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+   #flexer .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    #flexer .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+.center {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+  
+  }
+/*
+ * ─── FOOTER ─────────────────────────────────────────────────────────────────────
+ */
+footer{
+    position: fixed;
+    bottom: 100px;
+    right: 5%;
+
+}
+.social{
+    position: absolute;
+    left: 5%;
+
+}
+.social > a{
+    margin-right: 100px;
+}
+footer >p, .social >a{
+    font-weight: 500;
+}
+/*
+ * ─── MOTION ─────────────────────────────────────────────────────────────────────
+ */
+ * {
+    box-sizing: border-box;
+  }
+  
+  .row > .column {
+    padding: 0 8px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  img {
+    margin-bottom: -4px;
+  }
+  
+  .caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  img.hover-shadow {
+    transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
