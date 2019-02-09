@@ -173,8 +173,10 @@ nav a:hover{
     font-weight: bold;
 }
 nav img{
-    width:60px;
+    width:70px;
     position: relative;
+    padding-bottom: 10px;
+    padding-left: -10px;
     
 }
 
@@ -502,7 +504,7 @@ footer >p, .social >a{
     font-weight: 500;
 }
 /*
- * ─── MOTION ─────────────────────────────────────────────────────────────────────
+ * ─── More body stuff ─────────────────────────────────────────────────────────────────────
  */
  * {
     box-sizing: border-box;
@@ -638,3 +640,22 @@ footer >p, .social >a{
   .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
+  /*
+ * ─── MOTION ─────────────────────────────────────────────────────────────────────
+ */
+.delay-1 {
+    animation-delay: 0.1s;
+}
+ 
+.delay-2 {
+    animation-delay: 0.3s;
+}
+ 
+.delay-3 {
+    animation-delay: 0.5s;
+}
+ 
+.delay-4 {
+    animation-delay: 0.7s;
+}
+ 
